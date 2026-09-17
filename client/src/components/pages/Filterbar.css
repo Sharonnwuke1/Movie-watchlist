@@ -1,0 +1,54 @@
+.filterbar {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background-color: #1e1d24;
+    border: 1px solid #302f35;
+    border-radius: 6px;
+    margin: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.filter-options {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    white-space: nowrap;
+}
+
+.filter-options span {
+    display: inline-block;
+    cursor: pointer;
+    color: #888;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+
+.filter-options span:hover {
+    transform: translateY(-2px);
+    background-color: #f2a83b;
+    color: #5c3f04;
+}
+
+
+.filter-options span.active {
+    background-color: #f2a83b;
+    color: #5c3f04;
+}
+
+.sort-options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #888;
+}
+
+.sort-options select {
+    background-color: #1e1d24;
+    color: white;
+    border: 1px solid #302f35;
+    border-radius: 6px;
+    padding: 10px;
+}
